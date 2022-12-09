@@ -3,7 +3,7 @@ pipeline {
     stages {
         state('shell-print'){
             steps {
-                sh echo 'Hi there, I am a fullstack DevOps in python and javascript'
+                echo 'Hi there, I am a fullstack DevOps in python and javascript'
             }
         }
     }
